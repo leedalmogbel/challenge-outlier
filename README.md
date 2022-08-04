@@ -30,3 +30,19 @@ How to attempt this challenge:
 
 You must follow these steps for your solution to be accepted -- forks or other methods will not be considered.
 
+## Solution
+git clone
+git checkout feature/useragent
+git rebase master
+git checkout master
+git merge feature/useragent
+git checkout feature/base64
+git rebase master
+-- FIX conclict -- 
+git add .
+git rebase --continue
+git checkout master
+git merge feature/base64
+git remote set-url origin ${your repo url}
+git push origin master
+
