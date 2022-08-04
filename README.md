@@ -44,6 +44,6 @@ git add .
 git rebase --continue
 git checkout master
 git merge feature/base64
-git remote set-url origin ${your repo url}
+git remote set-url origin ${my repo url}
 git push origin master
 ```
